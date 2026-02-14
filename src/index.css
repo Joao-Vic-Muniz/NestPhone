@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap');
 
 @theme {
-  --font-titulo: "Montserrat", sans-serif;
-  --font-corpo: "Open Sans", sans-serif;
-  --color-verde-neon: #22c55e;
-  --color-preto-deep: #0a0a0a;
-  --color-laranja-neon: #f97316;
+  --font-title: "Montserrat", sans-serif;
+  --font-text: "Open Sans", sans-serif;
+  --color-title: #22c55e;
+  --color-bg: #0a0a0a;
+  --color-accent: #f97316;
 }
