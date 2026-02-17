@@ -10,10 +10,10 @@ export default function Navbar() {
     ]
 
     return (
-        <div className="bg-emerald-950 w-full h-20 p-3 items-center">
+        <div className="bg-emerald-950 w-full h-20 p-3 items-center z-12">
             <div className="flex flex-row justify-between items-center w-full">
 
-                <div className='flex items-center gap-2 cursor-pointer'>
+                <div className='flex items-center gap-2 cursor-pointer ml-3'>
                 <img src={Logo} alt="NestPhoneLogo" className='w-14 h-14 rounded-4xl'/>
                 <span className='font-title text-white text-xl'>NestPhone</span>
                 </div>
