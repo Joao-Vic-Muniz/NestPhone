@@ -1,4 +1,4 @@
-import Logo from '../../public/NestPhone_Logo.png'
+import Logo from '../assets/NestPhone_Logo.png'
 
 export default function Navbar() {
 
