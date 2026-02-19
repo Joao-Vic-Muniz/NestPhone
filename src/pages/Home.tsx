@@ -13,7 +13,7 @@ function Home() {
         <Navbar/> 
       </div>
 
-      <div className="relative z-10 flex-1 flex items-center justify-center p-6">
+      <div className="relative flex-1 flex items-center justify-center p-6">
         <div className='bg-emerald-950/40 backdrop-blur-md border border-emerald-500/20 w-full max-w-4xl rounded-3xl p-10 shadow-2xl flex flex-col items-center'>
             
             <h1 className="font-title text-emerald-400 text-4xl md:text-6xl text-center pb-4 drop-shadow-[0_2px_10px_rgba(52,211,153,0.3)]">
@@ -30,7 +30,7 @@ function Home() {
                 e entenda a tecnologia que moldou o futuro.
             </h3>
             
-            <button className="mt-10 px-10 py-3 bg-emerald-500 text-emerald-950 font-bold rounded-full hover:bg-emerald-400 hover:scale-105 transition-all shadow-lg duration-300">
+            <button className="mt-10 px-10 py-3 bg-emerald-500 text-emerald-950 font-bold rounded-full hover:bg-emerald-400 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(16,185,129,0.2)]  transition-all shadow-lg duration-300">
                 Começar Jornada
             </button>
         </div>
