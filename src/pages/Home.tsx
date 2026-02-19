@@ -2,9 +2,10 @@ import { motion } from 'framer-motion'; // Importando o motion
 import Background from '../assets/Bg_Home.png';
 import Navbar from '../components/Navbar';
 
-function Home() {
+export default function Home() {
   return (
-    <div 
+    <section
+      id='home'
       className="w-full min-h-screen flex flex-col bg-cover bg-center bg-no-repeat relative overflow-hidden"
       style={{ backgroundImage: `url(${Background})` }}
     >
@@ -14,12 +15,12 @@ function Home() {
         <Navbar/> 
       </div>
 
-      <div className="relative flex-1 flex items-center justify-center p-6">
+      <div className="relative flex-1 flex items-center justify-center mt-10">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className='bg-emerald-950/40 backdrop-blur-md border border-emerald-500/20 w-full max-w-4xl rounded-3xl p-10 shadow-2xl flex flex-col items-center'
+          className='bg-emerald-950/40 backdrop-blur-md border border-emerald-500/20 w-full max-w-4xl rounded-3xl p-10 shadow-2xl flex flex-col items-center mx-6'
         >
             
             <motion.h1 
@@ -63,8 +64,7 @@ function Home() {
             </motion.button>
         </motion.div>
       </div>
-    </div>
+    </section>
   )
 }
 
-export default Home;

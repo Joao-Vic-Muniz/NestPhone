@@ -8,8 +8,8 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const links = [
-        {name: 'Home', href: '#'},
-        {name: 'História', href: '#'},
+        {name: 'Home', href: '#home'},
+        {name: 'História', href: '#history'},
         {name: 'Evolução', href: '#'}
 
     ]
@@ -19,7 +19,7 @@ export default function Navbar() {
         initial={{ y:-100, opacity: 0}}
         animate={{ y:0, opacity: 1}}
         transition={{ duration: 0.8, ease: "easeOut"}}
-        className="bg-emerald-950 w-full h-20 p-3 z-50 relative">
+        className="bg-emerald-950 w-full h-20 p-3 z-50 fixed">
             <div className="flex flex-row justify-between items-center w-full">
 
                 <div className='flex items-center gap-2 cursor-pointer ml-3'>
