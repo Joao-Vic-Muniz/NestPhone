@@ -20,7 +20,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className='bg-emerald-950/40 backdrop-blur-md border border-emerald-500/20 w-full max-w-4xl rounded-3xl p-10 shadow-2xl flex flex-col items-center mx-6'
+          className='bg-emerald-950/40 backdrop-blur-md border border-emerald-500/20 w-full max-w-4xl rounded-3xl p-10 shadow-2xl flex flex-col items-center mx-6 mb-6'
         >
             
             <motion.h1 
@@ -52,16 +52,17 @@ export default function Home() {
                 e entenda a tecnologia que moldou o futuro.
             </motion.h3>
             
-            <motion.button 
+            <motion.a 
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 1 }}
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.95 }}
+              href='#history'
               className="mt-10 px-10 py-3 bg-emerald-500 text-emerald-950 font-bold rounded-full hover:bg-emerald-400 transition-all shadow-lg duration-300 active:scale-95"
             >
                 Começar Jornada
-            </motion.button>
+            </motion.a>
         </motion.div>
       </div>
     </section>

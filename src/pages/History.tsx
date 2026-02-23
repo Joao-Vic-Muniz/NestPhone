@@ -1,36 +1,25 @@
 import Carousel from "../components/Carrousel"
-import Background from '../assets/Bg_History.png'
 
 export default function History() {
     return (
         <section
             id="history"
-            className="w-full min-h-screen flex flex-col relative overflow-hidden bg-primary-dark"
+            className="w-full min-h-screen flex flex-col relative overflow-hidden bg-emerald-950"
         >
-            {/* Definição da Animação via CSS puro dentro do JSX */}
-            <style>
-                {`
-                @keyframes slowPan {
-                    0% { transform: scale(1); background-position: center; }
-                    50% { transform: scale(1.1); background-position: left bottom; }
-                    100% { transform: scale(1); background-position: center; }
-                }
-                .bg-animate-infinite {
-                    animation: slowPan 20s ease-in-out infinite;
-                }
-                `}
-            </style>
-
-            {/* Div do Fundo Animado */}
             <div 
-                className="absolute inset-0 w-full h-full bg-cover bg-no-repeat bg-animate-infinite"
-                style={{ 
-                    backgroundImage: `url(${Background})`,
-                    filter: 'brightness(0.6)' // Ajusta o brilho para destacar o carrossel
+                className="absolute inset-0 opacity-50"
+                style={{
+                    backgroundImage: `
+                        radial-gradient(at 0% 0%, hsla(161, 94%, 13%, 1) 0px, transparent 50%),
+                        radial-gradient(at 100% 0%, hsla(163, 80%, 20%, 1) 0px, transparent 50%),
+                        radial-gradient(at 100% 100%, hsla(158, 60%, 10%, 1) 0px, transparent 50%),
+                        radial-gradient(at 0% 100%, hsla(165, 92%, 15%, 1) 0px, transparent 50%)
+                    `
                 }}
             />
 
-            {/* Conteúdo (Carrossel) */}
+            <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/20 via-transparent to-emerald-950/20" />
+
             <div className="relative z-10 w-full flex-grow flex items-center justify-center">
                 <Carousel />
             </div>
