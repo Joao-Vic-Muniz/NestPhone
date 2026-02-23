@@ -3,27 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap');
 
 @theme {
-  /* Fontes */
   --font-title: "Montserrat", sans-serif;
   --font-text: "Open Sans", sans-serif;
 
-  /* Cores Principais */
   --color-primary: var(--color-emerald-500);
   --color-primary-light: var(--color-emerald-400);
   --color-primary-dark: var(--color-emerald-900);
 
-  /* Fundos (Elevations) */
-  --color-bg-main: #020617;        /* Um azul/preto quase absoluto para o fundo */
-  --color-bg-card: #064e3b;        /* Emerald 900 com opacidade no JSX */
-  --color-bg-card-hover: #065f46;  /* Emerald 800 */
+  --color-bg-main: #020617;       
+  --color-bg-card: #064e3b;       
+  --color-bg-card-hover: #065f46; 
 
-  /* Texto */
-  --color-text-main: #f8fafc;      /* Branco levemente acinzentado (não cansa o olho) */
-  --color-text-muted: #94a3b8;    /* Cinza para textos secundários */
+  --color-text-main: #f8fafc;      
+  --color-text-muted: #94a3b8;    
 
-  /* Contraste (O "Pulo do Gato") */
-  --color-action: #fbbf24;         /* Amber 400 - Um dourado/âmbar que brilha no verde */
-  --color-accent: #f97316;         /* O seu laranja original */
+  --color-action: #fbbf24;         
+  --color-accent: #f97316;        
 }
 
 * {

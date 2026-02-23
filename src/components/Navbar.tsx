@@ -19,10 +19,10 @@ export default function Navbar() {
         initial={{ y:-100, opacity: 0}}
         animate={{ y:0, opacity: 1}}
         transition={{ duration: 0.8, ease: "easeOut"}}
-        className="bg-emerald-950 w-full h-20 p-3 z-50 fixed">
-            <div className="flex flex-row justify-between items-center w-full">
+        className="bg-emerald-950 w-full h-20 p-3 z-50 relative ">
+            <div className="flex flex-row justify-between items-center w-full h-full">
 
-                <div className='flex items-center gap-2 cursor-pointer ml-3'>
+                <div className='flex items-center gap-2 cursor-pointer'>
                 <img src={Logo} alt="NestPhoneLogo" className='w-14 h-14 rounded-full max-md:w-12 max-md:h-12'/>
                 <span className='font-title text-white text-xl'>NestPhone</span>
                 </div>
