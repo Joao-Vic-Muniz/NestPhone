@@ -1,4 +1,4 @@
-@import "tailwindcss"; /* Deve ser a PRIMEIRA linha */
+@import "tailwindcss"; 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap');
 
@@ -6,19 +6,19 @@
   --font-title: "Montserrat", sans-serif;
   --font-text: "Open Sans", sans-serif;
 
-  --color-primary: var(--color-emerald-500);
-  --color-primary-light: var(--color-emerald-400);
-  --color-primary-dark: var(--color-emerald-900);
+  --color-primary: #2563eb;       
+  --color-primary-light: #3b82f6;  
+  --color-primary-dark: #1e3a8a;  
 
-  --color-bg-main: #020617;       
-  --color-bg-card: #064e3b;       
-  --color-bg-card-hover: #065f46; 
+  --color-bg-main: #000000;        
+  --color-bg-card: #0f172a;        
+  --color-bg-card-hover: #1e293b;  
 
   --color-text-main: #f8fafc;      
-  --color-text-muted: #94a3b8;    
+  --color-text-muted: #94a3b8;     
 
-  --color-action: #fbbf24;         
-  --color-accent: #f97316;        
+  --color-action: #0ea5e9;         
+  --color-accent: #1d4ed8;         
 }
 
 * {
