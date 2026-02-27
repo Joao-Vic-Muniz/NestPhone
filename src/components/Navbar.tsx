@@ -10,7 +10,7 @@ export default function Navbar() {
     const links = [
         {name: 'Home', href: '#home'},
         {name: 'História', href: '#history'},
-        {name: 'Evolução', href: '#'}
+        {name: 'Outros', href: '#other'}
     ]
 
     return (

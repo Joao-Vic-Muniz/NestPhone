@@ -4,10 +4,12 @@ import './index.css'
 
 import Home from './pages/Home';
 import History from './pages/History';
+import Other from './pages/Other'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Home />
     <History/>
+    <Other/>
   </StrictMode>,
 )
